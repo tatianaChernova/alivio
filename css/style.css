@@ -595,6 +595,15 @@ ul {
     width: 100%;
     margin-bottom: 75px;
   }
+  .header .main-header::after {
+    content: " ";
+    max-width: 800px;
+    height: 373px;
+    display: block;
+    background-image: url("../img/bg-small.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .header .main-header .main-header_wrapper .header-title {
     padding-top: 50px;
     font-size: 54px;
@@ -655,6 +664,10 @@ ul {
   }
 }
 @media screen and (max-width: 650px) {
+  .header .main-header::after {
+    background: none;
+    height: 0;
+  }
   .steps .steps-main .steps-main_first .steps-main_first__text {
     max-width: 280px;
   }
@@ -693,8 +706,8 @@ ul {
     display: none;
   }
   .header .main-header {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .header .main-header .main-header_wrapper {
     padding-left: 70px;
