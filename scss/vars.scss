@@ -1,0 +1,20 @@
+$navColor: #292929;
+$accentColor: #01996D;
+$subtitleColor: #484848;
+$textColor: #424242;
+$blackColor: #000000;
+$whiteColor: #FFFFFF;
+$bgColor: #245852;
+
+@mixin font($color, $fontS, $fontW, $lineH) {
+    font-size: $fontS;
+    font-weight: $fontW;
+    line-height: $lineH;
+    color: $color;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
