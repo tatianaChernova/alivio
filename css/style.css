@@ -406,14 +406,14 @@ body {
   background-color: #FFFFFF;
   color: #245852;
 }
-.story__video-link {
+.story__video {
+  width: 896px;
+  height: 516px;
+  background-image: url(../img/video_cover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
-}
-.story__video-cover {
-  max-width: 896px;
-  max-height: 516px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .story__video-icon {
   position: absolute;

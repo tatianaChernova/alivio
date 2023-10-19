@@ -361,14 +361,14 @@ body {
         }
     }
 
-    &__video-link {
+    &__video {
+        width: 896px;
+        height: 516px;
+        background-image: url(../img/video_cover.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         position: relative;
-    }
-
-    &__video-cover {
-        max-width: 896px;
-        max-height: 516px;
-        object-fit: cover;
     }
 
     &__video-icon {
