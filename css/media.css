@@ -421,6 +421,11 @@
     margin-bottom: 35px;
     font-size: 21px;
   }
+  .story__video-icon {
+    top: 39%;
+    left: 44%;
+    max-width: 45px;
+  }
   .way__text-title {
     font-size: 40px;
     line-height: 1.3;
@@ -496,6 +501,19 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .header__menu-btn {
+    width: 21px;
+    height: 15px;
+  }
+  .header__menu-btn span {
+    top: 6.5px;
+  }
+  .header__menu-btn.active:before {
+    top: 6.5px;
+  }
+  .header__menu-btn.active:after {
+    bottom: 6.5px;
+  }
   .main-header__title {
     padding-top: 20px;
     font-size: 45px;
@@ -518,6 +536,9 @@
   .story__title {
     margin-bottom: 15px;
     font-size: 33px;
+  }
+  .story__video-icon {
+    max-width: 30px;
   }
   .way__text-title {
     font-size: 29px;
